@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Title ========== -->
+    <title> Welcome To MB | HOME</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+      <style>
+          /*
+        Force full width & height.
+        If this block is removed, the layout height/length will be determined by
+        the amount of content in the page. That might result in a page which has
+        a footer only a few inches from the top of the viewport, or one which
+        scrolls beyond the viewport.
+        This forces the layout to always be full screen regardless of how much,
+        or how little, content is in place. Neither is "right" or "wrong", there
+        are valid cases for each. I just want to be clear what's controlling the
+        page/viewport height.
+      */
+          html,
+          body,
+          .viewport {
+              width: 100%;
+              height: 100%;
+              margin: 0;
+          }
+
+          .flex-container {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -moz-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -webkit-align-items: center;
+              -moz-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              -webkit-box-pack: center;
+              -webkit-justify-content: center;
+              -moz-box-pack: center;
+              -ms-flex-pack: center;
+              justify-content: center;
+              position: fixed;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+          }
+
+          .flex-item {
+              text-align: center;
+              margin: auto;
+          }
+      </style>
+</head>
+<body>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
+<div class="body-container container-fluid">
+    <a class="menu-btn" href="javascript:void(0)">
+        <i class="ion ion-grid"></i>
+    </a>
+    <div class="row justify-content-center">
+        <!--=================== side menu ====================-->
+        <div class="col-lg-2 col-md-3 col-12 menu_block">
+
+            <!--logo -->
+            <div class="logo_box">
+                <a href="#">
+                    <img src="assets/img/logosss34.png" alt="Mira's Boutique">
+                </a>
+            </div>
+            <!--logo end-->
+
+            <!--main menu -->
+            <div class="side_menu_section">
+                <ul class="menu_nav">
+                    <li class="active">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="services.html">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="blog.html">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--main menu end -->
+            <!--filter menu -->
+            <div class="side_menu_section">
+                <h4 class="side_title">filter by:</h4>
+                <ul id="filtr-container" class="filter_nav">
+                    <li data-filter="*" class="active"><a href="javascript:void(0)">all</a></li>
+                    <li data-filter=".branding"> <a href="javascript:void(0)">branding</a></li>
+                    <li data-filter=".design"><a href="javascript:void(0)">design</a></li>
+                    <li data-filter=".photography"><a href="javascript:void(0)">photography</a></li>
+                    <li data-filter=".architecture"><a href="javascript:void(0)">architecture</a></li>
+                </ul>
+            </div>
+            <!--filter menu end -->
+            <!--social and copyright -->
+            <div class="side_menu_bottom">
+                <div class="side_menu_bottom_inner">
+                    <ul class="social_menu">
+                        <li>
+                            <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="ion ion-social-facebook"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="ion ion-social-twitter"></i> </a>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
+                        </li>
+                    </ul>
+                    <div class="copy_right">
+                        <p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Mira's Boutique </a></p>
+                    </div>
+                </div>
+            </div>
+            <!--social and copyright end -->
+
+        </div>
+        <!--=================== side menu end====================-->
+        <!--=================== content body ====================-->
+        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+            <div class="home">
+                <div class="container-fluid">
+                    <!--=================== masaonry home start====================-->
+                    <div class="grid img-container justify-content-center no-gutters">
+                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+                        <div class="grid-item branding  col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/07a835ed5dbf45b9e6d225ec5ba0e7f8.jpg" title="Elsa's dress">
+                                <div class="project_box_one">
+                                    <img src="assets/img/07a835ed5dbf45b9e6d225ec5ba0e7f8.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding architecture  col-sm-12 col-md-6">
+                            <a href="assets/img/logos1.png" title="Mira's Boutique">
+                                <div class="project_box_one">
+                                    <img src="assets/img/logos1.png" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  design col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/Groomwear Fashion Alert! 4 Must-Have Engagement Dresses For Man.jpg" title="William's Tuxedo">
+                                <div class="project_box_one">
+                                    <img src="assets/img/Groomwear Fashion Alert! 4 Must-Have Engagement Dresses For Man.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  photography design col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/jjhb.jpg" title="Elizabeth's Shoes">
+                                <div class="project_box_one">
+                                    <img src="assets/img/jjhb.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding photography  col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/hijab.jpg" title="Zakiyah's Blink Hijab">
+                                <div class="project_box_one">
+                                    <img src="assets/img/hijab.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   architecture design col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/f9e65d0e22547f029e359237a5c0db1b.jpg" title="Way-Out Gown">
+                                <div class="project_box_one">
+                                    <img src="assets/img/f9e65d0e22547f029e359237a5c0db1b.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  photography architecture col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/DRESSSSSS.jpg" title="Ali's Tuxedo">
+                                <div class="project_box_one">
+                                    <img src="assets/img/DRESSSSSS.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item  branding design  col-sm-12 col-md-6 col-lg-3">
+                            <a href="assets/img/Elegant Female Ribbon Bow Tote Bag 2019 Summer New High Quality PU Leather Women's Designer Handbag Chain Shoulder Messenger bag - Green.jpg" title="Exotic Mafioso">
+                                <div class="project_box_one">
+                                    <img src="assets/img/Elegant Female Ribbon Bow Tote Bag 2019 Summer New High Quality PU Leather Women's Designer Handbag Chain Shoulder Messenger bag - Green.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-6">
+                            <a href="assets/img/Luxury Face mask.jpg" title="Luxury Face Mask">
+                                <div class="project_box_one">
+                                    <img src="assets/img/Luxury Face mask.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--=================== masaonry home end====================-->
+                </div>
+            </div>
+        </div>
+        <!--=================== content body end ====================-->
+    </div>
+</div>
+<!--Your Splash Screen-->
+<div id="splash" class="flex-container" style="background: #E91E63 ; display: none">
+
+    <!--Center align Splash contents in all screen sizes-->
+    <div class="flex-item">
+        <h2 style="color: white; padding-top: 50px;">Welcome to<h2>
+        <img src="assets/img/logosss34.png"
+            alt="app_icon" style="width:100% ; height :100%" />
+
+    </div>
+</div>
+
+
+<!-- jquery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/slick.min.js"></script>
+<!--Portfolio Filter-->
+<script src="assets/js/imgloaded.js"></script>
+<script src="assets/js/isotope.js"></script>
+<!-- Magnific-popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<!--Counter-->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
+  <script type="text/javascript">
+      function fade(element) {
+          var op = 1; // initial opacity
+          var timer = setInterval(function () {
+              if (op <= 0.1) {
+                  clearInterval(timer);
+
+                  element.style.display = 'none';
+              }
+              element.style.opacity = op;
+              element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+              op -= op * 0.1;
+          }, 50);
+      }
+
+      setTimeout(function () {
+
+          if (typeof (Storage) !== "undefined") {
+
+              console.log("Already shown" + sessionStorage.getItem('spalashShown'));
+
+              if (!sessionStorage.getItem('spalashShown') || sessionStorage.getItem('spalashShown') === null) {
+
+                  document.getElementById('splash').style.display = 'inline';
+
+                  //Display splash
+                  setTimeout(function () {
+
+                      fade(document.getElementById('splash'));
+                      // document.getElementById('splash') .style.display = 'none'
+                      // window.location = "http://hiteshsahu.com";
+
+                      sessionStorage.setItem('spalashShown', true);
+                  }, 3000);
+
+              } else {
+
+                  //Display Main Content
+                  document.getElementById('splash').style.display = 'none'
+                  console.log("Already shown");
+              }
+          } else {
+              document.getElementById("result").innerHTML =
+                  "Sorry, your browser does not support web storage...";
+          }
+      }, 0);
+  </script>
+</body>
+</html>
